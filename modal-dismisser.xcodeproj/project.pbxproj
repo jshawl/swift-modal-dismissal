@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		886C3ED41ACE085400FCB0A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886C3ED31ACE085400FCB0A9 /* AppDelegate.swift */; };
+		886C3ED61ACE085400FCB0A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886C3ED51ACE085400FCB0A9 /* ViewController.swift */; };
+		886C3ED91ACE085400FCB0A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 886C3ED71ACE085400FCB0A9 /* Main.storyboard */; };
+		886C3EDB1ACE085400FCB0A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 886C3EDA1ACE085400FCB0A9 /* Images.xcassets */; };
+		886C3EDE1ACE085400FCB0A9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 886C3EDC1ACE085400FCB0A9 /* LaunchScreen.xib */; };
+		886C3EEA1ACE085400FCB0A9 /* modal_dismisserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886C3EE91ACE085400FCB0A9 /* modal_dismisserTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		886C3EE41ACE085400FCB0A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 886C3EC61ACE085400FCB0A9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 886C3ECD1ACE085400FCB0A9;
+			remoteInfo = "modal-dismisser";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		886C3ECE1ACE085400FCB0A9 /* modal-dismisser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "modal-dismisser.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		886C3ED21ACE085400FCB0A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		886C3ED31ACE085400FCB0A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		886C3ED51ACE085400FCB0A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		886C3ED81ACE085400FCB0A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		886C3EDA1ACE085400FCB0A9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		886C3EDD1ACE085400FCB0A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		886C3EE31ACE085400FCB0A9 /* modal-dismisserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "modal-dismisserTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		886C3EE81ACE085400FCB0A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		886C3EE91ACE085400FCB0A9 /* modal_dismisserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modal_dismisserTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		886C3ECB1ACE085400FCB0A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		886C3EE01ACE085400FCB0A9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		886C3EC51ACE085400FCB0A9 = {
+			isa = PBXGroup;
+			children = (
+				886C3ED01ACE085400FCB0A9 /* modal-dismisser */,
+				886C3EE61ACE085400FCB0A9 /* modal-dismisserTests */,
+				886C3ECF1ACE085400FCB0A9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		886C3ECF1ACE085400FCB0A9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				886C3ECE1ACE085400FCB0A9 /* modal-dismisser.app */,
+				886C3EE31ACE085400FCB0A9 /* modal-dismisserTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		886C3ED01ACE085400FCB0A9 /* modal-dismisser */ = {
+			isa = PBXGroup;
+			children = (
+				886C3ED31ACE085400FCB0A9 /* AppDelegate.swift */,
+				886C3ED51ACE085400FCB0A9 /* ViewController.swift */,
+				886C3ED71ACE085400FCB0A9 /* Main.storyboard */,
+				886C3EDA1ACE085400FCB0A9 /* Images.xcassets */,
+				886C3EDC1ACE085400FCB0A9 /* LaunchScreen.xib */,
+				886C3ED11ACE085400FCB0A9 /* Supporting Files */,
+			);
+			path = "modal-dismisser";
+			sourceTree = "<group>";
+		};
+		886C3ED11ACE085400FCB0A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				886C3ED21ACE085400FCB0A9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		886C3EE61ACE085400FCB0A9 /* modal-dismisserTests */ = {
+			isa = PBXGroup;
+			children = (
+				886C3EE91ACE085400FCB0A9 /* modal_dismisserTests.swift */,
+				886C3EE71ACE085400FCB0A9 /* Supporting Files */,
+			);
+			path = "modal-dismisserTests";
+			sourceTree = "<group>";
+		};
+		886C3EE71ACE085400FCB0A9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				886C3EE81ACE085400FCB0A9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		886C3ECD1ACE085400FCB0A9 /* modal-dismisser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 886C3EED1ACE085400FCB0A9 /* Build configuration list for PBXNativeTarget "modal-dismisser" */;
+			buildPhases = (
+				886C3ECA1ACE085400FCB0A9 /* Sources */,
+				886C3ECB1ACE085400FCB0A9 /* Frameworks */,
+				886C3ECC1ACE085400FCB0A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "modal-dismisser";
+			productName = "modal-dismisser";
+			productReference = 886C3ECE1ACE085400FCB0A9 /* modal-dismisser.app */;
+			productType = "com.apple.product-type.application";
+		};
+		886C3EE21ACE085400FCB0A9 /* modal-dismisserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 886C3EF01ACE085400FCB0A9 /* Build configuration list for PBXNativeTarget "modal-dismisserTests" */;
+			buildPhases = (
+				886C3EDF1ACE085400FCB0A9 /* Sources */,
+				886C3EE01ACE085400FCB0A9 /* Frameworks */,
+				886C3EE11ACE085400FCB0A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				886C3EE51ACE085400FCB0A9 /* PBXTargetDependency */,
+			);
+			name = "modal-dismisserTests";
+			productName = "modal-dismisserTests";
+			productReference = 886C3EE31ACE085400FCB0A9 /* modal-dismisserTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		886C3EC61ACE085400FCB0A9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Jesse Shawl";
+				TargetAttributes = {
+					886C3ECD1ACE085400FCB0A9 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					886C3EE21ACE085400FCB0A9 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 886C3ECD1ACE085400FCB0A9;
+					};
+				};
+			};
+			buildConfigurationList = 886C3EC91ACE085400FCB0A9 /* Build configuration list for PBXProject "modal-dismisser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 886C3EC51ACE085400FCB0A9;
+			productRefGroup = 886C3ECF1ACE085400FCB0A9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				886C3ECD1ACE085400FCB0A9 /* modal-dismisser */,
+				886C3EE21ACE085400FCB0A9 /* modal-dismisserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		886C3ECC1ACE085400FCB0A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				886C3ED91ACE085400FCB0A9 /* Main.storyboard in Resources */,
+				886C3EDE1ACE085400FCB0A9 /* LaunchScreen.xib in Resources */,
+				886C3EDB1ACE085400FCB0A9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		886C3EE11ACE085400FCB0A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		886C3ECA1ACE085400FCB0A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				886C3ED61ACE085400FCB0A9 /* ViewController.swift in Sources */,
+				886C3ED41ACE085400FCB0A9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		886C3EDF1ACE085400FCB0A9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				886C3EEA1ACE085400FCB0A9 /* modal_dismisserTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		886C3EE51ACE085400FCB0A9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 886C3ECD1ACE085400FCB0A9 /* modal-dismisser */;
+			targetProxy = 886C3EE41ACE085400FCB0A9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		886C3ED71ACE085400FCB0A9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				886C3ED81ACE085400FCB0A9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		886C3EDC1ACE085400FCB0A9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				886C3EDD1ACE085400FCB0A9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		886C3EEB1ACE085400FCB0A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		886C3EEC1ACE085400FCB0A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		886C3EEE1ACE085400FCB0A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "modal-dismisser/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		886C3EEF1ACE085400FCB0A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "modal-dismisser/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		886C3EF11ACE085400FCB0A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "modal-dismisserTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/modal-dismisser.app/modal-dismisser";
+			};
+			name = Debug;
+		};
+		886C3EF21ACE085400FCB0A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "modal-dismisserTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/modal-dismisser.app/modal-dismisser";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		886C3EC91ACE085400FCB0A9 /* Build configuration list for PBXProject "modal-dismisser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				886C3EEB1ACE085400FCB0A9 /* Debug */,
+				886C3EEC1ACE085400FCB0A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		886C3EED1ACE085400FCB0A9 /* Build configuration list for PBXNativeTarget "modal-dismisser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				886C3EEE1ACE085400FCB0A9 /* Debug */,
+				886C3EEF1ACE085400FCB0A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		886C3EF01ACE085400FCB0A9 /* Build configuration list for PBXNativeTarget "modal-dismisserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				886C3EF11ACE085400FCB0A9 /* Debug */,
+				886C3EF21ACE085400FCB0A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 886C3EC61ACE085400FCB0A9 /* Project object */;
+}
