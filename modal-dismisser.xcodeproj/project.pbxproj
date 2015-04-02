@@ -13,6 +13,7 @@
 		886C3EDB1ACE085400FCB0A9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 886C3EDA1ACE085400FCB0A9 /* Images.xcassets */; };
 		886C3EDE1ACE085400FCB0A9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 886C3EDC1ACE085400FCB0A9 /* LaunchScreen.xib */; };
 		886C3EEA1ACE085400FCB0A9 /* modal_dismisserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886C3EE91ACE085400FCB0A9 /* modal_dismisserTests.swift */; };
+		886C3EF41ACE08B100FCB0A9 /* ModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886C3EF31ACE08B100FCB0A9 /* ModalViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		886C3EE31ACE085400FCB0A9 /* modal-dismisserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "modal-dismisserTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		886C3EE81ACE085400FCB0A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		886C3EE91ACE085400FCB0A9 /* modal_dismisserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = modal_dismisserTests.swift; sourceTree = "<group>"; };
+		886C3EF31ACE08B100FCB0A9 /* ModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModalViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 				886C3ED31ACE085400FCB0A9 /* AppDelegate.swift */,
 				886C3ED51ACE085400FCB0A9 /* ViewController.swift */,
 				886C3ED71ACE085400FCB0A9 /* Main.storyboard */,
+				886C3EF31ACE08B100FCB0A9 /* ModalViewController.swift */,
 				886C3EDA1ACE085400FCB0A9 /* Images.xcassets */,
 				886C3EDC1ACE085400FCB0A9 /* LaunchScreen.xib */,
 				886C3ED11ACE085400FCB0A9 /* Supporting Files */,
@@ -213,6 +216,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				886C3ED61ACE085400FCB0A9 /* ViewController.swift in Sources */,
+				886C3EF41ACE08B100FCB0A9 /* ModalViewController.swift in Sources */,
 				886C3ED41ACE085400FCB0A9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

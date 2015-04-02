@@ -20,6 +20,16 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "modalSegue" {
+            let destination = segue.destinationViewController as ModalViewController
+            destination.superController = self
+        }
+    }
+    
+    func dismissModal(){
+      self.dismissViewControllerAnimated(true, completion: nil)
+    }
 
 }
 
